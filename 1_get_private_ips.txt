@@ -1,0 +1,1 @@
+source execute_sh_file_on_servers.sh 'hostname -I' > __private_ips.txt
