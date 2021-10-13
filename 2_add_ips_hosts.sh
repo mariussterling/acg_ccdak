@@ -9,3 +9,4 @@ while read ip
 do
 	ssh -i acg_aws.pem ubuntu@$ip "sudo tee -a" < $1
 done < aws_servers.txt
+rm __hosts
